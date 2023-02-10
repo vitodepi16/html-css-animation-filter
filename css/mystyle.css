@@ -64,3 +64,11 @@
     filter: grayscale(0.9) sepia(0.8);
     transform: scale(0.4);
 }
+.ex-10-icon{
+    animation: spin 8s linear infinite ;
+}
+@keyframes spin{
+    0% {
+        transform: rotate(2turn);
+    }
+}
