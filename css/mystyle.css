@@ -47,5 +47,12 @@
 }
 
 .ex-7-img:hover{
-    filter: grayscale(0.8) sepia(0.2)
+    filter: grayscale(0.8) sepia(0.2);
+}
+.ex-8-img{
+    transition: 2s;
+}
+.ex-8-img:hover{
+    border-radius: 40px;
+    filter: grayscale(0.9) sepia(0.8);
 }
